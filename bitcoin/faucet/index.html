@@ -1,7 +1,16 @@
-<title>
-My Bitcoin
-</title>
-<frameset rows="7%,93%">
-  <frame src="https://raw.githack.com/cloud4tik/test/master/bitcoin/faucet/a.html" name="a" scrolling="no" noresize frameborder="0" style="text-decoration-line: none; font-size:x-large;">
-  <frame src="https://raw.githack.com/cloud4tik/test/master/bitcoin/faucet/b.html" name="b" frameborder="0" style="text-decoration-line: none; font-size:x-large;">
-</frameset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Opening Links in an iFrame</title>
+	<style>
+		iframe {
+			width: 100%;
+			height: -webkit-fill-available;
+		}
+	</style>
+</head>
+<body>
+<p><a href="https://raw.githack.com/cloud4tik/test/master/bitcoin/faucet/faucet.html" target="myFrame">Home</a></p>
+    <iframe src="https://raw.githack.com/cloud4tik/test/master/bitcoin/faucet/faucet.html" name="myFrame"></iframe>
+</body>
+</html>     
